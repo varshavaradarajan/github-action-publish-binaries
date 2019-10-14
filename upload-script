@@ -126,7 +126,8 @@ for file in $*; do
         echo "***************************"
         echo " upload was not successful."
         echo " Aborting"
-        echo "***************************"
+        echo $response
+        echo "**********************************"
         cat $tmp
         rm $tmp
         exit 1
